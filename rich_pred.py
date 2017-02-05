@@ -1,4 +1,4 @@
-#!/usr/bin/env python  #### >look here, delete this< ####
+#!/usr/bin/env python 
 
 """Calculate richness values based area using a multi-model average
 
