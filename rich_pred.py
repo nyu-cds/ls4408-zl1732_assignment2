@@ -1,4 +1,4 @@
-#!/usr/bin/env python  #### >look here, delete this< ####
+#!/usr/bin/env python 
 
 """Calculate richness values based area using a multi-model average
 
@@ -47,7 +47,8 @@ def get_sar_estimate(area, equations, parameters):
 
 sar_eqs = [power_eq, power_quad_eq, logarithmic_eq, michaelis_menten_eq, lomolino]
 
-sar_parameters = [[32.7, 0.3], [1.2, 0.163, 0.010],
+
+sar_parameters = [[32.7, 0.3], [1.2, 0.163, 0.009],
                   [14.36, 21.45], [85.91, 42.57],
                       [1082.45, 1.59, 390000000]]
 
